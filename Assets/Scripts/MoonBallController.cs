@@ -261,8 +261,6 @@ public class MoonBallController : MonoBehaviour
         {
             print("TODO: Implement out of bounds logic.");
             levelController.OutOfBounds();
-            // TODO: Clean this garbage
-            rigidBody2D.velocity = new Vector2(0, 0);
             Start();
         }
         else
